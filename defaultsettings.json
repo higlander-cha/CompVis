@@ -1,0 +1,29 @@
+{  
+    "Camera rotation": 180,
+    "Camera resolution" : [1920,1080],
+    "Camera framerate" : 2,
+    "Camera brightness" : 50,
+    "Camera contrast" : 50,
+    "Waiter period" : 1,
+    "Waiter timeout" : 10,
+    "url" : "http://localhost:80",
+    "Threshold" : 0.4,
+    "Locations" : [
+        {"name" : "location1", "hasBox" : false, "boundingBox" : 
+            {"height":0.3,"left":0.1,"top":0.1,"width":0.3}
+        },
+        {"name" : "location2", "hasBox" : false, "boundingBox" : 
+            {"height":0.3,"left":0.6,"top":0.1,"width":0.3}
+        },
+        {"name" : "location3", "hasBox" : false, "boundingBox" : 
+            {"height":0.3,"left":0.35,"top":0.45,"width":0.3}
+        },
+        {"name" : "location4", "hasBox" : false, "boundingBox" : 
+            {"height":0.3,"left":0.6,"top":0.6,"width":0.3}
+        }
+    ],
+    "Compare method" : "percent_overlap",
+    "Radius" : 0.5,
+    "Percent overlap required" : 70,
+    "_comment" : "Compare method is in set {center_to_center, percentage_overlap}"
+}
